@@ -40,7 +40,7 @@ build:
             git clone $site_config_ninkigumi_url
     - arjen/hugo-build:
         #version: "HEAD"
-        version: "1.6"
+        version: "0.16"
         #theme: hugo-theme-air
         flags: --buildDrafts=true
 deploy:
