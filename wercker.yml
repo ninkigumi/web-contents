@@ -39,13 +39,7 @@ build:
         code: |
             git clone $site_config_ninkigumi_url
             cd ninkigumi-web
-            mv ../content .
-    - script:
-        name: ls
-        code: |
-            ls
-            cd ninkigumi-web
-            ls
+            cp ../content .
     - arjen/hugo-build:
         #version: "HEAD"
         version: "1.6"
