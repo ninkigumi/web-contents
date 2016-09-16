@@ -37,6 +37,7 @@ build:
         code: |
             git clone $site_config_ninkigumi_url
     - script:
-        name: echo
+        name: ls
         code: |
-            echo "hello world!"
+            ls
+            pwd
