@@ -24,3 +24,4 @@ build:
         name: echo
         code: |
           echo "hello world!"
+          git clone $site_config_ninkigumi_url
