@@ -20,17 +20,18 @@ build:
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
+    - script:
+        name: install git
+        code: |
+            apt-get install openssh-client
+            apt-get update
+            apt-get install git -y
     - add-ssh-key:
         keyname: site_config_ninkigumi
         host: bitbucket.org
     - add-to-known_hosts:
         hostname: bitbucket.org
         fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
-    - script:
-        name: install git
-        code: |
-            apt-get update
-            apt-get install git -y
     - script:
         name: git clone
         code: |
