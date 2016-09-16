@@ -23,6 +23,9 @@ build:
     - add-ssh-key:
         keyname: site_config_ninkigumi
         host: bitbucket.org
+    - add-to-known_hosts:
+        hostname: bitbucket.org
+        fingerprint: 35:ee:d7:b8:ef:d7:79:e2:c6:43:9e:ab:40:6f:50:74
     - script:
         name: install git
         code: |
