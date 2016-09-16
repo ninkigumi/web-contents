@@ -46,7 +46,7 @@ build:
             ls
             cd ninkigumi-web
             ls
-    steps:
+    - steps:
         - arjen/hugo-build:
             version: "0.16"
             theme: hugo-theme-air
