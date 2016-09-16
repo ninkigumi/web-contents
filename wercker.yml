@@ -21,7 +21,15 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - script:
+        name: install git
+        code: |
+            apt-get update
+            apt-get install git -y
+    - script:
+        name: git clone
+        code: |
+            git clone $site_config_ninkigumi_url
+    - script:
         name: echo
         code: |
-          echo "hello world!"
-          git clone $site_config_ninkigumi_url
+            echo "hello world!"
