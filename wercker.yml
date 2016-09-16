@@ -48,3 +48,4 @@ deploy:
     - gh-pages:
         token: $GIT_TOKEN
         domain: dev.ninkigumi.com
+        basedir: public
