@@ -36,8 +36,11 @@ build:
         name: git clone
         code: |
             git clone $site_config_ninkigumi_url
+            cd ninkigumi-web
+            mv contents .
     - script:
         name: ls
         code: |
             ls
-            pwd
+            cd ninkigumi-web
+            ls
