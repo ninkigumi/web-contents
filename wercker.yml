@@ -34,10 +34,10 @@ build:
     - add-to-known_hosts:
         hostname: bitbucket.org
         fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
-    #- script:
-    #    name: git clone
-    #    code: |
-    #        git clone $site_config_ninkigumi_url
+    - script:
+        name: git clone
+        code: |
+            git clone $site_config_ninkigumi_url
     - arjen/hugo-build:
         #version: "HEAD"
         version: "0.16"
