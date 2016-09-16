@@ -23,9 +23,9 @@ build:
     - script:
         name: install git
         code: |
-            apt-get install openssh-client
             apt-get update
             apt-get install git -y
+            apt-get install openssh-client
     - add-ssh-key:
         keyname: site_config_ninkigumi
         host: bitbucket.org
