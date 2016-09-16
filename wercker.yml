@@ -38,8 +38,6 @@ build:
         name: git clone
         code: |
             git clone $site_config_ninkigumi_url
-            cd ninkigumi-web
-            cp ../content .
     - arjen/hugo-build:
         #version: "HEAD"
         version: "1.6"
