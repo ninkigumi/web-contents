@@ -50,3 +50,8 @@ build:
         version: "HEAD"
         #theme: hugo-theme-air
         flags: --buildDrafts=true
+deploy:
+  steps:
+    - gh-pages:
+        token: $GIT_TOKEN
+        domain: dev.ninkigumi.com
