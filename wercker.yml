@@ -31,7 +31,7 @@ build:
         host: bitbucket.org
     - add-to-known_hosts:
         hostname: bitbucket.org
-        fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
+        fingerprint: 35:ee:d7:b8:ef:d7:79:e2:c6:43:9e:ab:40:6f:50:74
     - script:
         name: git clone
         code: |
