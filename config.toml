@@ -3,4 +3,4 @@ languageCode = "ja"
 title = "My New Hugo Site"
 
 [Params]
-googleanalytics = "UA-46259108-6"
+GoogleAnalytics = "UA-46259108-6"
