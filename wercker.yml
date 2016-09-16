@@ -47,7 +47,8 @@ build:
             cd ninkigumi-web
             ls
     - arjen/hugo-build:
-        version: "HEAD"
+        #version: "HEAD"
+        version: "1.6"
         #theme: hugo-theme-air
         flags: --buildDrafts=true
 deploy:
