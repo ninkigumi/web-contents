@@ -37,7 +37,7 @@ build:
         code: |
             git clone $site_config_ninkigumi_url
             cd ninkigumi-web
-            mv ../contents .
+            mv ../content .
     - script:
         name: ls
         code: |
