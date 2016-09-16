@@ -1,3 +1,6 @@
 baseurl = "https://ninkigumi.github.io/web-contents"
 languageCode = "ja"
 title = "My New Hugo Site"
+
+[params]
+googleanalytics = "UA-46259108-6"
