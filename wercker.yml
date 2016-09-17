@@ -1,4 +1,6 @@
-box: ninkigumi/hugo
+box: 
+  id: ninkigumi/hugo
+  cmd: /bin/sh
 build:
   steps:
     - script:
