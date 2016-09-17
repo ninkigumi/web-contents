@@ -1,6 +1,6 @@
 box: 
   id: ninkigumi/hugo
-  cmd: /bin/sh
+  cmd: /bin/bash
 build:
   steps:
     - script:
