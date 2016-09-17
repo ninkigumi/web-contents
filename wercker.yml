@@ -1,4 +1,5 @@
 box: ninkigumi/hugo-min
+#
 build:
   steps:
     - script:
