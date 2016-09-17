@@ -8,7 +8,8 @@ build:
         host: bitbucket.org
     - add-to-known_hosts:
         hostname: bitbucket.org
-        fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
+        #fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
+        fingerprint: SHA256:zzXQOXSRBEiUtuE8AikJYKwbHaxvSc0ojez9YXaGp1A bitbucket.org
     - script:
         name: git clone
         code: |
