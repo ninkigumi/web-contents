@@ -19,6 +19,10 @@ build:
         name: hugo
         code: |
             hugo
+    - script:
+        name: html-minify
+        code: |
+            html-minifier -c html-minifier.conf --input-dir public --output-dir public
 deploy:
   steps:
     - lukevivier/gh-pages:
